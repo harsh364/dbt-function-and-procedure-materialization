@@ -1,0 +1,7 @@
+-- {%- macro create_stmt_fromfile(relation,sql) -%}
+--     CREATE OR REPLACE PROCEDURE relation()
+--     BEGIN
+--     {{ sql.upper() }}
+--     ;
+--     END;
+-- {%- endmacro -%}
